@@ -1,26 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import {HashRouter, Route, Switch} from "react-router-dom";
+
+import Navigation from "../Layouts/Navigation/Navigation";
+import Main from "../Layouts/Main/Main";
+import Bar from "../Layouts/Bar/Bar";
+import About from "../Layouts/About/About";
+
+
+const NotFound = () => <h2>error 404 , not found!</h2>
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+<div className="background">
+        <HashRouter>
+
+                <Navigation/>
+            <div className="container page">
+                    <Switch>
+
+                        <Route exact path="/" component={Main}/>
+                        <Route path="/bar" component={Bar}/>
+                        <Route path="/about" component={About}/>
+                        <Route component={NotFound}/>
+
+                    </Switch>
+            </div>
+        </HashRouter>
+</div>
+    );
 }
 
 export default App;

@@ -1,0 +1,29 @@
+.navigation {
+  background-color: rgba(0, 0, 25, 0.7);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+
+  .logo {
+  background-image: url("./logo.png");
+  background-repeat: no-repeat;
+  height: 4.5rem;
+  width: 18rem;
+  }
+
+  ul {
+    width: 20rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 700;
+  }
+}
+
+

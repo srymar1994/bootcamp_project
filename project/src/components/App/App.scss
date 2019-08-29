@@ -1,0 +1,21 @@
+@import "../../styles/partials/reset";
+
+.background {
+  background: url("./bar-beverage-cold-248427.jpg") no-repeat top center ;
+  background-size: contain;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.page {
+  height: 45rem;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
