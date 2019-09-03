@@ -4,7 +4,10 @@ import "./Bar.scss";
 class Bar extends Component {
     render() {
         return (
-            <div className="bar">Bar</div>
+            <div className="bar">
+                <div className={"bartender"}></div>
+                <div className={"list"}></div>
+            </div>
         )
     }
 }

@@ -5,7 +5,7 @@ import "./Navigation.scss";
 class Navigation extends Component {
 render() {
     const selectedStyle = {
-        color: "rgb(239, 180, 187)",
+        color: "#abf4fd",
 };
     const style = {textDecoration:"none", color: "rgb(28, 63, 118)"};
     

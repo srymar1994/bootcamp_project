@@ -1,3 +1,93 @@
 .main {
+  width: 60%;
+  height: 10rem;
+  display: flex;
+  box-shadow: 0 0 65px 81px rgba(255, 255, 0, 0.52);
+  background-color: rgba(255, 255, 0, 0.52);
+  border-radius: 1rem;
+  flex-direction: column;
+  align-items: center;
 
+  span {
+    font-family: 'Patua One', cursive;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    color: rgb(171, 244, 253);
+    text-shadow: -1px 0 rgb(28, 63, 118), 0 1px rgb(28, 63, 118), 1px 0 rgb(28, 63, 118), 0 -1px rgb(28, 63, 118);
+
+  }
+
+  button {
+      font-family: 'Patua One', cursive;
+
+      font-size: 2rem;
+      position: relative;
+      outline: none;
+      text-decoration: none;
+      border-radius: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      text-transform: uppercase;
+      height: 60px;
+      width: 210px;
+      opacity: 1;
+      background-color: rgb(28, 63, 118);
+      &:hover {
+        animation: rotate 0.7s ease-in-out both;
+      }
+    }
+
+
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg) translate3d(0, 0, 0);
+      }
+      25% {
+        transform: rotate(3deg) translate3d(0, 0, 0);
+      }
+      50% {
+        transform: rotate(-3deg) translate3d(0, 0, 0);
+      }
+      75% {
+        transform: rotate(1deg) translate3d(0, 0, 0);
+      }
+      100% {
+        transform: rotate(0deg) translate3d(0, 0, 0);
+      }
+    }
+
+
+    h1 {
+    font-size: 3rem;
+    color: rgb(171, 244, 253);
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    text-shadow: -1px 0 rgb(28, 63, 118), 0 1px rgb(28, 63, 118), 1px 0 rgb(28, 63, 118), 0 -1px rgb(28, 63, 118);
+    animation: slide-in-blurred-left 0.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+
+    @keyframes slide-in-blurred-left {
+      0% {
+        -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+        transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+        -webkit-transform-origin: 100% 50%;
+        transform-origin: 100% 50%;
+        -webkit-filter: blur(40px);
+        filter: blur(40px);
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+        transform: translateX(0) scaleY(1) scaleX(1);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        opacity: 1;
+      }
+    }
+
+    padding-bottom: 0.5rem;
+  }
 }
