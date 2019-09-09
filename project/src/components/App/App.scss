@@ -1,8 +1,9 @@
 @import "../../styles/partials/reset";
 
 .background {
-  background: url("./bar-beverage-cold-248427.jpg") no-repeat top center ;
-  background-size: contain;
+  background: url("./bar-beverage-cold-248427.jpg") no-repeat top center;
+  background-size: cover;
+  width: 100%;
 }
 
 .container {
@@ -11,7 +12,7 @@
 }
 
 .page {
-  height: 41rem;
+  height: 40rem;
   display: flex;
   justify-content: center;
   flex-direction: column;

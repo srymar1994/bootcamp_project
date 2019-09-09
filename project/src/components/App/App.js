@@ -3,12 +3,13 @@ import './App.scss';
 import {HashRouter, Route, Switch} from "react-router-dom";
 
 import Navigation from "../Layouts/Navigation/Navigation";
+import Footer from "../Layouts/Footer/Footer";
 import Main from "../Layouts/Main/Main";
 import Bar from "../Layouts/Bar/Bar";
 import About from "../Layouts/About/About";
 
 
-const NotFound = () => <h2>error 404 , not found!</h2>
+const NotFound = () => <h2>error 404 , not found!</h2>;
 
 
 function App() {
