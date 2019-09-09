@@ -2,22 +2,109 @@
   box-shadow: 0 0 4rem 5rem rgb(255, 255, 255);
   background-color: rgb(255, 255, 255);
   width: 100%;
-  height: 90%;
+  height: 70%;
   margin-top: 7rem;
+  margin-bottom: 6rem;
   display: flex;
   justify-content: space-between;
 
+
   .bartender{
     background: url("./barcocktail.png") no-repeat center center;
-    height: 100%;
+    height: 90%;
     width: 60%;
     background-size: contain;
   }
-  .list {
+
+  .box {
     width: 35%;
-    height: 90%;
+    height: 80%;
     border: 0.25rem solid rgb(29, 64, 119);
     border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(4, 5, 27);
+
+    h2 {
+      font-size: 2rem;
+      color: rgb(171, 244, 253);
+      font-family: 'Pacifico', cursive;
+      text-align: center;
+      text-shadow: -1px 0 rgb(28, 63, 118), 0 1px rgb(28, 63, 118), 1px 0 rgb(28, 63, 118), 0 -1px rgb(28, 63, 118);
+    }
+
+    .shaker {
+      background: url("./shaker2.png") no-repeat;
+      background-size: cover;
+      margin-top: 2rem;
+      height: 11.7rem;
+      width: 10.2rem;
+    }
+
+    .shake-horizontal {
+      animation: shake-horizontal 1s steps(3, start) 3 alternate-reverse both;
+
+      @keyframes shake-horizontal {
+        0%,
+        100% {
+          -webkit-transform: translateX(0);
+          transform: translateX(0);
+        }
+        10%,
+        30%,
+        50%,
+        70% {
+          -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+        }
+        20%,
+        40%,
+        60% {
+          -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+        }
+        80% {
+          -webkit-transform: translateX(8px);
+          transform: translateX(8px);
+        }
+        90% {
+          -webkit-transform: translateX(-8px);
+          transform: translateX(-8px);
+        }
+      }
+      @keyframes shake-horizontal {
+        0%,
+        100% {
+          -webkit-transform: translateX(0);
+          transform: translateX(0);
+        }
+        10%,
+        30%,
+        50%,
+        70% {
+          -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+        }
+        20%,
+        40%,
+        60% {
+          -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+        }
+        80% {
+          -webkit-transform: translateX(8px);
+          transform: translateX(8px);
+        }
+        90% {
+          -webkit-transform: translateX(-8px);
+          transform: translateX(-8px);
+        }
+      }
+    }
+
+    }
   }
-}
+
 
