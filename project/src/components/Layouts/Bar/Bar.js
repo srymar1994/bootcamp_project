@@ -21,7 +21,7 @@ class Shaker extends Component {
 constructor(props) {
     super(props);
     this.state = {
-        className: "shaker"
+        className: "shaker1"
     };
     this.myRef = React.createRef();
 }
