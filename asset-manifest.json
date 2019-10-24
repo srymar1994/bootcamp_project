@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/My-Cocktail/static/css/main.9e0560e0.chunk.css",
+    "main.js": "/My-Cocktail/static/js/main.47713904.chunk.js",
+    "main.js.map": "/My-Cocktail/static/js/main.47713904.chunk.js.map",
+    "runtime~main.js": "/My-Cocktail/static/js/runtime~main.f7370942.js",
+    "runtime~main.js.map": "/My-Cocktail/static/js/runtime~main.f7370942.js.map",
+    "static/js/2.ac978f93.chunk.js": "/My-Cocktail/static/js/2.ac978f93.chunk.js",
+    "static/js/2.ac978f93.chunk.js.map": "/My-Cocktail/static/js/2.ac978f93.chunk.js.map",
+    "index.html": "/My-Cocktail/index.html",
+    "precache-manifest.a78192c26393615502d37fe0f47fe326.js": "/My-Cocktail/precache-manifest.a78192c26393615502d37fe0f47fe326.js",
+    "service-worker.js": "/My-Cocktail/service-worker.js",
+    "static/css/main.9e0560e0.chunk.css.map": "/My-Cocktail/static/css/main.9e0560e0.chunk.css.map",
+    "static/media/App.scss": "/My-Cocktail/static/media/bar-beverage-cold-248427.84065a69.jpg",
+    "static/media/Bar.scss": "/My-Cocktail/static/media/shaker2.561647d6.png",
+    "static/media/Navigation.scss": "/My-Cocktail/static/media/logo.b749ca8b.png"
+  }
+}
